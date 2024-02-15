@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: 1B244A;
+}
+
+.home-score {
+    background: #0a0001;
+    font-family: "Cursed Timer ULiL";
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+}
+
+.guest-score {
+    background: #0a0001;
+    font-family: "Cursed Timer ULiL";
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: 1B244A;
+}
+
+button {
+    background: none;
+}
+
+#newgame-el {
+    position: absolute;
+    top: 250px;
+    left: 180px;
+    font-family : "Cursed Timer ULiL";
+    background: goldenrod;
+    border-radius: 3px;
+}
+
+
+
+
