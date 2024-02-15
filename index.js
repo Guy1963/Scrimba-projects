@@ -1,8 +1,8 @@
 let homeScore = 0;
-let guestScore = 0;
+let awayScore = 0;
 
 let homeScoreEl = document.getElementById("home-el")
-let guestScoreEl = document.getElementById("guest-el")
+let awayScoreEl = document.getElementById("guest-el")
 
 function addOneHome() {
     homeScore += 1
@@ -23,27 +23,27 @@ function addThreeHome() {
 }
 
 function addOneAway() {
-    guestScore += 1
-    guestScoreEl.textContent = guestScore
-    console.log(guestScoreEl.textContent)
+    awayScore += 1
+    awayScoreEl.textContent = awayScore
+    console.log(awayScoreEl.textContent)
 }
 
 function addTwoAway() {
-    guestScore += 2
-    guestScoreEl.textContent = guestScore
-    console.log(guestScoreEl.textContent)
+    awayScore += 2
+    awayScoreEl.textContent = awayScore
+    console.log(awayScoreEl.textContent)
 }
 
 function addThreeAway() {
-    guestScore += 3
-    guestScoreEl.textContent = guestScore
-    console.log(guestScoreEl.textContent)
+    awayScore += 3
+    awayScoreEl.textContent = awayScore
+    console.log(awayScoreEl.textContent)
 }
 
 function newGame() {
     
-    guestScore = 0;
-    guestScoreEl.textContent = 0;
+    awayScore = 0;
+    awayScoreEl.textContent = 0;
     homeScore = 0;
     homeScoreEl.textContent = 0;
 }
